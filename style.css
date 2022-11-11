@@ -1,0 +1,30 @@
+html {
+    overflow: auto;
+  }
+
+  html,
+  body,
+  div,
+  iframe {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    border: none;
+  }
+
+  iframe {
+    display: block;
+    width: 100%;
+    border: none;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  
+  df-messenger {
+   --df-messenger-bot-message: #878fac;
+   --df-messenger-button-titlebar-color: #df9b56;
+   --df-messenger-chat-background-color: #fafafa;
+   --df-messenger-font-color: white;
+   --df-messenger-send-icon: #878fac;
+   --df-messenger-user-message: #479b3d;
+  }
